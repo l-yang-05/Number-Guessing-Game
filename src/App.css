@@ -1,0 +1,81 @@
+.container{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  background-color: #593C8F;
+  color:#8EF9F3;
+  align-items: center;
+  height: 100vh;
+  width:100%;
+}
+
+.container-score{
+  padding: 10px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.Title_Start {
+  font-size: 2em;
+  padding: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+button{
+  padding: 8px;
+  margin: 10px;
+  font-size: 1em;
+  width: 45%;
+}
+
+input {
+  display: block;
+  margin: 5px;
+  width: 50%;
+  padding: 5px;
+}
+
+.container-start{
+  margin-top: 10%;
+  text-align: center;
+}
+
+.container-start header{
+  font-weight: bold;
+  font-size: 110px;
+}
+
+.container-start p{
+  font-size: 50px;
+}
+
+.container-score{
+  display: flex;
+  flex-direction: row;
+}
+
+.score {
+  display:inline;
+  padding: 30px;
+}
+
+
+.highscore {
+  display: inline;
+  padding: 30px;
+}
+
+.highscore h4{
+  display: inline-block;
+}
+
