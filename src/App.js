@@ -186,12 +186,19 @@ const App = () => {
   else {
     return (
       <div className="container-start">
-        <header className="Title_Start">Game Start</header>
-        <p>Select the difficulty:</p>
-        <form>
-          <button type='button' onClick={standard}>Standard</button>
-          <button type='button' onClick={expert}>Expert</button>
-        </form>
+        <header className="Title_Start">Number Guessing Game</header>
+        <h2 className="rules">Rules:</h2>
+        <p className="desc">
+          First, choose a difficulty! (Easy: 1-10; Hard: 1-100). Enter in a number to see if your guess was right. Keep on trying
+          to win and try beating your highscore! You can do it! :D
+        </p>
+        <div className="difficulty">
+          <h3>Select the difficulty:</h3>
+          <form>
+            <button type='button' onClick={standard}>Standard</button>
+            <button type='button' onClick={expert}>Expert</button>
+          </form>
+        </div>
       </div>
     );
   }

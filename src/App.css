@@ -46,17 +46,47 @@ input {
 }
 
 .container-start{
-  margin-top: 10%;
+  margin-top: 5%;
   text-align: center;
 }
 
 .container-start header{
   font-weight: bold;
-  font-size: 110px;
+  font-size: 80px;
+}
+
+.container-start h2{
+  font-size: 40px;
+  color:lemonchiffon;
+  margin: 0;
+}
+
+.container-start h3{
+  font-size: 36px;
 }
 
 .container-start p{
-  font-size: 50px;
+  font-size: 25px;
+}
+
+.difficulty{
+  margin-top:100px;
+  
+}
+
+.desc{
+  color: lemonchiffon;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.desc p{
+  font-size: 20px;
 }
 
 .container-score{
